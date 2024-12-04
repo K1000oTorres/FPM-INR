@@ -1,5 +1,6 @@
 # FPM_INR
-FPM-INR Fourier Ptychographic Microscopy Image Stack Reconstruction using Implicit Neural Representation
+
+They present the FPM-INR method, a compact and efficient framework that integrates physics-based optical models with implicit neural representations (INRs) to reconstruct stacked images. FPM-INR is independent of system design or sample types and requires no external training data. FPM-INR substantially outperforms traditional FPM algorithms, with up to 25 times faster speedup and 80 times lower memory usage for continuous image stack representations.
 
 The full version of the code has been released.
 
@@ -77,8 +78,6 @@ Docker container is available at
 ```
 docker pull hwzhou/inr-repo:fpm-inr
 ```
-
-They present the FPM-INR method, a compact and efficient framework that integrates physics-based optical models with implicit neural representations (INRs) to reconstruct stacked images. FPM-INR is independent of system design or sample types and requires no external training data. FPM-INR substantially outperforms traditional FPM algorithms, with up to 25 times faster speedup and 80 times lower memory usage for continuous image stack representations.
 
 ## BiBTeX
 
